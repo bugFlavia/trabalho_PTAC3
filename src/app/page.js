@@ -13,7 +13,7 @@ export default async function Home() {
 
       {produtos.map(produtos => (
         <div key={produtos.titulo}>
-          <p>{produtos.dt_cad}</p>
+          <p> {produtos.dt_cad}</p>
           <p>{produtos.preco}</p>
           <p>{produtos.descricao}</p>
           <img src={produtos.imagem}/>
